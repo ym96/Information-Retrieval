@@ -1,0 +1,14 @@
+<parameters>
+        <index>C:\ClueWebIndex</index>
+        <trecFormat>true</trecFormat>
+        <rule>dirichlet:1000</rule>
+        <count>50</count>
+  <query>
+    <number> 1 </number>
+    <text>#5(climate change)</text>
+  </query>
+  <query>
+     <number> 2 </number>
+     <text> #append() </text>
+   </query>
+</parameters>
