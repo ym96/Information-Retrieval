@@ -11,4 +11,4 @@ Authors who opt to have their pages highly ranked for queries of interest often 
 
 The motivation behind this is to better understand and further explore Web dynamics with respect to the inherent competitive retrieval setting which is driven by rank-incentivized authors.
 
-The paper provides a novel dataset for performing Web dynamics analysis by examining temporal changes on documents. 
+The paper provides a novel dataset for performing Web dynamics analysis by examining temporal changes on documents. More details on the historical snapshots ClueWeb09 data can be found here https://github.com/hscw09dataset/hscw09
