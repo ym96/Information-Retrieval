@@ -33,9 +33,15 @@ f2 = warc.open("C:\Information Retrieval\ClueWeb09\2008-01-01\en0000\01.warc.gz"
 for record in f2:
     print (record['Trec-'], record['Content-Length'])
 
+
+f3 - warc.open("C:\Information Retrieval\ClueWeb09\2008-02-01\en0000\01.warc.gz")
+for record in f3:
+    print (record['Trec-'], record['Content-Length'])
+
 # Access document-query-mapppings for the ClueWeb09 web 
 # crawls to associate highly ranked queries with corresponding documents
 df = pd.read_csv("C:\Information Retrieval\document_query_mapping.tsv", sep="\t")
+
 
 # Plotting the responses for KL divergence 
 plt.title('KL(P||Q) = %1.2f' % KL_Divergence(p, q))
@@ -52,3 +58,5 @@ q = norm.pdf(x, 2, 3)
 plt.title('KL(P||Q) = %1.3f' % KL_Divergence(q, p))
 plt.plot(x, p)
 plt.plot(x, q, c='blue')
+
+
